@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+  max-height: 100%;
+  display: flex;
+  min-width: 100vh;
+  font-family: "DynaPuff", cursive;
+}
+
+.container {
+  display: flex;
+  background-image: url("images/dog.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100%;
+  max-width: 100%;
+  font-size: calc(10px + 2vmin);
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.searchPetContainer {
+  flex-direction: column;
+  display: flex;
+  margin-top: 12vh;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100%;
+  font-size: calc(10px + 2vmin);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addPetContainer {
+  background-image: url("images/dog2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  margin-top: 5vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addPetSubContainer {
+margin-top: 10vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.petPageContainer {
+  background-image: url("images/dog2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 5vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.petCardSpan {
+  color: rgb(4, 3, 47);
+  margin-left: 1.25rem;
+  font-size: 36px;
+}
+
+.updateUserContainer {
+  background-image: url("images/dog2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: flex-start;
+  margin-top: 2vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dashBoardContainer {
+  flex-direction: column;
+  display: flex;
+ 
+  margin-top: 2vh;
+  min-height: 100vh;
+  min-width: 60%;
+  font-size: calc(10px + 2vmin);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.petImage {
+  max-height: 350px;
+  max-width: 350px;
+}
+
